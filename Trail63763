@@ -2,69 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mr. Delivery - Nationwide Package Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Delivery - Worldwide Package Delivery</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- Hero Section -->
-  <section class="bg-white py-16">
+  <section class="bg-blue-700 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Nationwide Package Delivery</h1>
-      <p class="text-lg mb-6">Fast, reliable, and secure delivery services to every corner of the country with Mr. Delivery.</p>
-      <a href="#book-now" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Book a Delivery</a>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Worldwide Package Delivery</h1>
+      <p class="text-lg mb-6">From Africa to Asia, Europe, and beyond — Mr. Delivery has you covered!</p>
+      <a href="#book" class="inline-block bg-white text-blue-700 px-6 py-3 rounded-full hover:bg-gray-200 font-semibold">Book a Delivery</a>
     </div>
   </section>
 
-  <!-- Features Section -->
-  <section class="py-20 bg-gray-100">
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 text-center">
-      <div>
-        <h3 class="text-2xl font-semibold mb-2">Nationwide Reach</h3>
-        <p>We deliver to every city, town, and rural area across the country.</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-2">Fast Delivery</h3>
-        <p>Same-day or next-day delivery options available for most destinations.</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mb-2">Secure Handling</h3>
-        <p>All packages are tracked, insured, and handled with care.</p>
+  <!-- Regions Covered -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Regions We Cover</h2>
+      <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6 text-center">
+        <div class="p-4 border rounded shadow hover:shadow-md">🌍 Africa</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌏 Asia</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌍 Europe</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌎 North & South America</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌏 Australia & Oceania</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">📦 Remote Locations</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🚚 Same-Day Urban Delivery</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🔐 Secure Freight Handling</div>
       </div>
     </div>
   </section>
 
-  <!-- Booking Form -->
-  <section id="book-now" class="py-20 bg-white">
-    <div class="max-w-xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">Book Your Delivery</h2>
+  <!-- Package Tracking Section -->
+  <section class="bg-gray-100 py-16" id="tracking">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Track Your Package</h2>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="text" placeholder="Enter Tracking Number" class="flex-1 px-4 py-3 rounded border border-gray-300" required />
+        <button type="submit" class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800">Track Now</button>
+      </form>
+      <p class="text-sm text-gray-600 mt-3">* Tracking available for all global shipments</p>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="book" class="py-20 bg-white">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Book a Delivery</h2>
       <form class="space-y-6">
         <div>
-          <label class="block mb-2 text-sm font-medium">Full Name</label>
-          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Your name" required />
+          <label class="block mb-2 font-medium">Full Name</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Your full name" required />
         </div>
         <div>
-          <label class="block mb-2 text-sm font-medium">Pickup Address</label>
-          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Pickup address" required />
+          <label class="block mb-2 font-medium">Pickup Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Pickup location" required />
         </div>
         <div>
-          <label class="block mb-2 text-sm font-medium">Delivery Address</label>
-          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Delivery address" required />
+          <label class="block mb-2 font-medium">Destination Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Delivery destination" required />
         </div>
         <div>
-          <label class="block mb-2 text-sm font-medium">Package Details</label>
-          <textarea class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Size, weight, contents..." rows="4"></textarea>
+          <label class="block mb-2 font-medium">Package Description</label>
+          <textarea class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Describe your package..." rows="4"></textarea>
         </div>
-        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Submit Booking</button>
+        <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded hover:bg-blue-800">Submit Booking</button>
       </form>
     </div>
   </section>
 
+  <!-- USA Office Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Our USA Office</h2>
+      <p class="text-lg mb-2">📍 Mr. Delivery Global Headquarters</p>
+      <p class="text-gray-700">1745 Market Street, Suite 800, San Francisco, CA 94103, USA</p>
+      <p class="text-gray-700 mt-2">Phone: +1 (415) 555-0163 | Email: support@mrdelivery.com</p>
+    </div>
+  </section>
+
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-6 text-center">
-    <p>&copy; 2025 Mr. Delivery. All rights reserved.</p>
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>&copy; 2025 Mr. Delivery. All international and domestic rights reserved.</p>
   </footer>
 
 </body>
 </html>
+
