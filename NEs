@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Delivery - Global Goods Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-green-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Global Goods Delivery Services</h1>
+      <p class="text-lg mb-6">Delivering goods to Africa, Asia, Europe, and beyond – safely and reliably.</p>
+      <a href="#book" class="inline-block bg-white text-green-700 px-6 py-3 rounded-full hover:bg-gray-200 font-semibold">Book a Delivery</a>
+    </div>
+  </section>
+
+  <!-- Regions We Deliver -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Regions We Serve</h2>
+      <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6 text-center">
+        <div class="p-4 border rounded shadow hover:shadow-md">🌍 Africa</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌏 Asia</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌍 Europe</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌎 Americas</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🌏 Australia</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🏝️ Remote Islands</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🛡️ Secured Shipping</div>
+        <div class="p-4 border rounded shadow hover:shadow-md">🚀 Express Options</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Package Tracking -->
+  <section class="bg-gray-100 py-16" id="tracking">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Track Your Package</h2>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="text" placeholder="Enter Tracking Number" class="flex-1 px-4 py-3 rounded border border-gray-300" required />
+        <button type="submit" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800">Track Now</button>
+      </form>
+      <p class="text-sm text-gray-600 mt-3">Live global tracking for all goods shipments.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-white" id="testimonials">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-gray-700 italic">"Mr. Delivery shipped my goods from Ghana to Germany in under a week. Fast and reliable!"</p>
+          <div class="mt-4 font-semibold">— Amina O., Accra</div>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-gray-700 italic">"My business relies on Mr. Delivery for all our Asia-to-USA shipments. Never disappointed."</p>
+          <div class="mt-4 font-semibold">— David T., Singapore</div>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-gray-700 italic">"Excellent customer support and safe delivery of fragile goods to remote areas."</p>
+          <div class="mt-4 font-semibold">— Elena R., Italy</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="py-20 bg-gray-50">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Book a Goods Delivery</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-2 font-medium">Your Full Name</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Enter your name" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Pickup Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="City, Country" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Delivery Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="City, Country" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Goods Description</label>
+          <textarea class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Describe the goods..." rows="4"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-green-700 text-white py-3 rounded hover:bg-green-800">Submit Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- USA Office Info -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Our USA Office</h2>
+      <p class="text-lg mb-2">📍 Mr. Delivery Global Hub</p>
+      <p class="text-gray-700">2997 Liberty Ave, Suite 301, Pittsburgh, PA 15201, USA</p>
+      <p class="text-gray-700 mt-2">Phone: +1 (412) 555-0298 | Email: info@mrdelivery.com</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white text-center py-6">
+    <p>&copy; 2025 Mr. Delivery. Trusted Worldwide Goods Delivery Experts.</p>
+  </footer>
+
+</body>
+</html>
