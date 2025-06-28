@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Haven - Online Pet Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header / Hero -->
+  <section class="bg-green-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to Pet Haven 🐾</h1>
+      <p class="text-lg mb-6">Your trusted online shop for pets and pet supplies</p>
+      <a href="#shop" class="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Pet Categories -->
+  <section class="py-16 bg-white" id="shop">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Shop by Category</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="w-20 mx-auto mb-4" alt="Dog" />
+          <h3 class="font-semibold text-lg">Dogs</h3>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="w-20 mx-auto mb-4" alt="Cat" />
+          <h3 class="font-semibold text-lg">Cats</h3>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616430.png" class="w-20 mx-auto mb-4" alt="Bird" />
+          <h3 class="font-semibold text-lg">Birds</h3>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-lg">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="w-20 mx-auto mb-4" alt="Fish" />
+          <h3 class="font-semibold text-lg">Fish</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Featured Products</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg text-center">
+          <img src="https://place-puppy.com/200x200" class="rounded mb-4 mx-auto" alt="Dog" />
+          <h3 class="font-bold text-lg mb-1">Golden Retriever Puppy</h3>
+          <p class="text-green-600 font-semibold">$499</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg text-center">
+          <img src="https://placekitten.com/200/200" class="rounded mb-4 mx-auto" alt="Cat" />
+          <h3 class="font-bold text-lg mb-1">Persian Kitten</h3>
+          <p class="text-green-600 font-semibold">$299</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg text-center">
+          <img src="https://cdn.pixabay.com/photo/2013/07/12/13/00/parrot-146429_1280.png" class="rounded mb-4 mx-auto w-32" alt="Bird" />
+          <h3 class="font-bold text-lg mb-1">Talking Parrot</h3>
+          <p class="text-green-600 font-semibold">$199</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-20 bg-white" id="contact">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-2 font-medium">Name</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Email</label>
+          <input type="email" class="w-full border border-gray-300 px-4 py-2 rounded" required />
+        </div>
+        <div>
+          <label class="block mb-2 font-medium">Message</label>
+          <textarea class="w-full border border-gray-300 px-4 py-2 rounded" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-green-600 text-white py-3 rounded hover:bg-green-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center py-6">
+    <p>&copy; 2025 Pet Haven. All rights reserved.</p>
+    <p>1234 Paw Street, Petville, USA</p>
+    <p>Email: support@pethaven.com | Phone: +1 (555) 123-4567</p>
+  </footer>
+
+</body>
+</html>
