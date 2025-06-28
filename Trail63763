@@ -2,11 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mr. Delivery Services</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
-    header { background: #0077cc; padding: 20px; color: white; text-align: center; }
-    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    .hero {
-      background: url('https://images.unsplash.com/photo-1581092160612-3b4b58a54e94?auto=format&fit=crop&w=1600&q=80'
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr. Delivery - Nationwide Package Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Nationwide Package Delivery</h1>
+      <p class="text-lg mb-6">Fast, reliable, and secure delivery services to every corner of the country with Mr. Delivery.</p>
+      <a href="#book-now" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Book a Delivery</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 text-center">
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Nationwide Reach</h3>
+        <p>We deliver to every city, town, and rural area across the country.</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Fast Delivery</h3>
+        <p>Same-day or next-day delivery options available for most destinations.</p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Secure Handling</h3>
+        <p>All packages are tracked, insured, and handled with care.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book-now" class="py-20 bg-white">
+    <div class="max-w-xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Book Your Delivery</h2>
+      <form class="space-y-6">
+        <div>
+          <label class="block mb-2 text-sm font-medium">Full Name</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Your name" required />
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium">Pickup Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Pickup address" required />
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium">Delivery Address</label>
+          <input type="text" class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Delivery address" required />
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium">Package Details</label>
+          <textarea class="w-full border border-gray-300 px-4 py-2 rounded" placeholder="Size, weight, contents..." rows="4"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Submit Booking</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Mr. Delivery. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
